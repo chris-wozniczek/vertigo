@@ -397,7 +397,7 @@ $('#recBtn').onclick = () => {
   catch (err) { exitExport(); expModal.classList.remove('on'); toast(err.message); rec = null; }
 };
 async function finishRecording() {
-  const { r } = rec; rec = null;
+  const { r } = rec; rec = null; setRing(1);
   const blob = await r.stop();
   exitExport();
   const name = `vertigo-${stamp()}.${r.ext}`;
