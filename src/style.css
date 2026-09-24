@@ -82,7 +82,6 @@ h1{font-family:var(--serif);font-style:italic;font-weight:400;font-size:34px;lin
 .tab.drop{background:linear-gradient(180deg,rgba(255,180,106,.18),rgba(255,138,76,.1));color:var(--ink);border:1px solid rgba(255,180,106,.28)}
 .tab.drop:hover{background:linear-gradient(180deg,rgba(255,180,106,.28),rgba(255,138,76,.16))}
 .sep{width:1px;height:24px;background:var(--line-2);margin:0 4px;flex:none}
-.bar .tab:last-child{margin-left:0}
 .panel-wrap{display:grid;grid-template-rows:0fr;transition:grid-template-rows .55s var(--ease)}
 .dock.open .panel-wrap{grid-template-rows:1fr}
 .panel-wrap>*{min-height:0}

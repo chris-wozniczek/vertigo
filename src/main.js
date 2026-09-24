@@ -85,7 +85,7 @@ async function showScene(id, { first = false } = {}) {
   stage.fade = first ? 1 : 0; stage.fadeTarget = 1;
   state.scene = id; state.phase = 0;
   $('#slateScene').textContent = s.name;
-  $('#slateCredit').textContent = s.user ? 'Your photo' : `${s.credit} · Unsplash`;
+  $('#slateCredit').textContent = s.user ? 'On this device' : `${s.credit} · Unsplash`;
 }
 
 // ---------- dock / panels ----------
