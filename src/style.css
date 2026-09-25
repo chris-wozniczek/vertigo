@@ -237,3 +237,7 @@ input[type=range]:focus{outline:none}
 @media (max-width:520px){ .tab.drop span{display:none} .samples{gap:4px} .sample{width:40px;height:36px} }
 @media (prefers-reduced-motion:reduce){ *{animation-duration:.01ms!important;transition-duration:.01ms!important} }
 .tab[data-tab="export"]{margin-left:auto}
+.xlink{pointer-events:auto;color:var(--ink-2);text-decoration:none;transition:color .3s,border-color .3s,transform .3s var(--ease)}
+.xlink svg{width:13px;height:13px}
+.xlink:hover{color:var(--ink);border-color:var(--amber);transform:translateY(-1px)}
+@media (max-width:820px){ .top-right .xlink{display:flex;padding:0;width:34px;justify-content:center} .xlink span{display:none} }

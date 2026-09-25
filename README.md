@@ -61,7 +61,7 @@ All samples are from [Unsplash](https://unsplash.com) under the [Unsplash Licens
 
 Built for [Hackyard Yard #3](https://hackyard.tech/yards/yard-3), theme **One Screen**: everything happens on a single view — panels, overlays and modals, no routes or wizards. All code was written fresh during the build week (Sep 21–25, 2026).
 
-Built by [Devin](https://devin.ai) (Cognition AI) for Krzysztof Woźniczek ([@chris-wozniczek](https://github.com/chris-wozniczek)).
+Built by [Devin](https://devin.ai) (Cognition AI) for Krzysztof Woźniczek ([@chris-wozniczek](https://github.com/chris-wozniczek) · [@chris_wozniczek on X](https://x.com/chris_wozniczek)).
 
 ## License
 
